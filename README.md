@@ -20,5 +20,5 @@ Here is a list of the tools currently available in this toolkit:
 
 | Tool / Exploit                                       | Category                  | Description                                                              |
 | ---------------------------------------------------- | ------------------------- | ------------------------------------------------------------------------ |
-| [PHAR Deserialization](./phar-deserialization/)      | Web / PHP Exploitation    | Generates a malicious PHAR archive to achieve RCE via insecure deserialization. |
+| [PHAR Deserialization](./https://github.com/Moluck-yt/Pwn-Scripts/tree/main/phar-desserialization)      | Web / PHP Exploitation    | Generates a malicious PHAR archive to achieve RCE via insecure deserialization. |
 | *... (more tools to come)* |                           |                                                                          |
