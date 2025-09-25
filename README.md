@@ -12,7 +12,7 @@ Unauthorized use of these tools against systems you do not own or have permissio
 
 ## Repository Structure
 
-Each tool or exploit is contained within its own directory. Inside each directory, you will typically find the script itself and a dedicated `README.md` file explaining the specific vulnerability, the script's usage, and how to mitigate the flaw.
+Each tool or exploit is contained within its own directory. Inside each directory, you will typically find the script itself and a dedicated `README.md` file explaining the specific vulnerability, the script's usage, and how toh mitigate the flaw.
 
 ## Available Tools
 
@@ -20,5 +20,5 @@ Here is a list of the tools currently available in this toolkit:
 
 | Tool / Exploit                                       | Category                  | Description                                                              |
 | ---------------------------------------------------- | ------------------------- | ------------------------------------------------------------------------ |
-| [PHAR Deserialization](./https://github.com/Moluck-yt/Pwn-Scripts/tree/main/phar-desserialization)      | Web / PHP Exploitation    | Generates a malicious PHAR archive to achieve RCE via insecure deserialization. |
+| [PHAR Deserialization](./phar-desserialization)      | Web / PHP Exploitation    | Generates a malicious PHAR archive to achieve RCE via insecure deserialization. |
 | *... (more tools to come)* |                           |                                                                          |
