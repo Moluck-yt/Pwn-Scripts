@@ -99,7 +99,3 @@ O ataque ocorre em três etapas:
 - **Sanitização de Uploads:** Não confie apenas na extensão do arquivo. Verifique o conteúdo real do arquivo (ex: usando `getimagesize` para imagens) para garantir que não é um PHAR disfarçado.
 
 <!-- end list -->
-
-```
-
-```
