@@ -1,4 +1,3 @@
-````markdown
 # Exploit: Desserialização Insegura via PHAR Upload
 
 Este script (`generate_phar.php`) cria um arquivo PHAR malicioso para explorar uma vulnerabilidade de Desserialização Insegura em aplicações PHP. O objetivo é realizar um upload de arquivo que, ao ser processado por uma funcionalidade vulnerável (como um download), escreve um _web shell_ em um diretório acessível, resultando em Execução Remota de Código (RCE).
@@ -27,7 +26,7 @@ if (strpos($file,'phar://')===0) {
 header('Content-Length: '.filesize($path)); // <-- GATILHO
 readfile($path);                           // <-- GATILHO
 ```
-````
+
 
 A aplicação explicitamente confia e processa caminhos com `phar://`. Quando `filesize()` ou `readfile()` são chamados em um caminho como `phar://path/to/uploaded/file.jpg`, a desserialização é acionada.
 
